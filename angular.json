@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/firebaseui/dist/firebaseui.css"
             ],
             "scripts": []
           },
@@ -92,7 +93,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/firebaseui/dist/firebaseui.css"
             ],
             "scripts": []
           }
@@ -121,8 +123,16 @@
               "devServerTarget": "sivepe-dashboard-web:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "sivepe-dashboard-web"
+    }
+  },
+  "defaultProject": "sivepe-dashboard-web",
+  "cli": {
+    "analytics": "a5c2ded2-bc3d-4cac-8642-e663953edc84"
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "dsi215": {
+      "hosting": {
+        "sivepe-dashboard-web": [
+          "dsi215"
+        ]
+      }
+    }
+  }
+}
